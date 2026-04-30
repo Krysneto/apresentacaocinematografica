@@ -103,49 +103,94 @@
     const DEFAULT_HEADER = {
         name: "KRYSTOPHER ANDRADE",
         subtitle: "Cinema Director · DOP · 1st AD",
-        phone: "+5584998567752",
+        phone: "+5584994587752",
         email: "krysneto@gmail.com",
-        oldSiteLabel: "Old Site",
-        oldSiteUrl: "https://krysneto.wixsite.com/fashionfilm",
-        showOldSite: true
     };
 
     const defaultCategories = [
-        { id: "director", name: "🎬 Director de Cena", desc: "Short films, narrative & experimental direction.", items: [
-            { title: "EVERYDAY CHEMESTRY (2022)", link: "https://www.youtube.com/watch?v=YqS5u89ZsiQ" },
+        { id: "director", name: "Director", desc: "Short films, narrative & experimental direction.", items: [
+            { title: "EVERYDAY CHEMISTRY (2022)", link: "https://www.youtube.com/watch?v=YqS5u89ZsiQ" },
             { title: "A CORDA (2013)", link: "https://www.youtube.com/watch?v=Q9bnO80_7HQ" },
             { title: "ROTINA COTIDIANA (2013)", link: "https://www.youtube.com/watch?v=f5COGTAnFGQ" },
             { title: "BOCA RICA (2010)", link: "https://www.youtube.com/watch?v=eLxUhrdj540" },
-            { title: "GUARDA_CHUVAS (2010)", link: "https://www.youtube.com/watch?v=qkCJw0FDUgE" },
-            { title: "TOMATE VERMELHO (2009)", link: "" }
+            { title: "GUARDA_CHUVAS (2010)", link: "https://www.youtube.com/watch?v=qkCJw0FDUgE" }, { title: "TOMATE (2009)", link: "https://youtu.be/_F5SO5yiCjQ" }
         ] },
-        { id: "dop", name: "📸 Director of Photography (DOP)", desc: "Cinematography for narrative, commercial & experimental.", items: [
-            { title: "How Not To Break Up (2019)", link: "" },{ title: "DOC Teaser - Patricia Cirera (2019)", link: "" },
-            { title: "Ruger American (2019)", link: "" },{ title: "EXPERIMENTAL PAINTS (2018)", link: "" },
-            { title: "Web-serie Cita Familiar (2017)", link: "" },{ title: "Gaffer - Commercial Pate La Piara (2017)", link: "" }
+        { id: "dop", name: "Director of Photography (DOP)", desc: "Cinematography, camera, lighting & photo assistant.", items: [
+    { title: "DOP, How Not To Break Up - Andrea Caricati, Francisca S. | 2019", link: "" },
+    { title: "DOP, DOC Teaser - Patricia Cirera | 2019", link: "" },
+    { title: "DOP, Ruger American - Ashley Sansone | 2019", link: "" },
+    { title: "DOP, EXPERIMENTAL PAINTS - Mariusz Jasionowski | 2018", link: "https://youtu.be/c9mBR-d00Qc" },
+    { title: "DOP - Web-serie Cita Familiar - Ivan | 2017", link: "https://www.youtube.com/watch?v=3tdAjOfh5LI" },
+    { title: "Gaffer - Commercial Pate La Piara | 2017", link: "" },
+    { title: "Focus Puller - videoclip Berry Wolf - Laura Rodalles | 2017", link: "https://www.youtube.com/watch?v=oM4T1i3w1Bg" },
+    { title: "Photo Assist. - DESPERTA - Isadora Saad | 2015", link: "" },
+    { title: "Photo Assist. (STILL, MODELS) - Over Digital | 2014-2015", link: "" },
+    { title: "Camera & Photo assistant - REMAKERS | 2012-2014", link: "https://youtu.be/dYbUh4nBSag" },
+    { title: "Photo Assist. - THE WORMS - Paolo Conti (FOX FILMS) | 2013", link: "https://www.youtube.com/watch?v=sfI9uApRY5Y" },
+    { title: "Photo Assist. - QUIMERA - Melissa Lipinski | 2009", link: "https://youtu.be/xbGpnfXwmGk" },
+    { title: "Photo Assist. (STILL, MODELS) - Estudio Gui | 2008-2014", link: "" }
+] },
+        { id: "assistant", name: "Assistant Director(1st AD)", desc: "Feature films, short films, international productions.", items: [
+    // Feature / Internacionais
+    { title: "42 SEGUNDOS, Alberto Pinto (PRE-PRODUCTION) | 2019", link: "" },
+    { title: "MIS OJOS, DOC Nuria Vila | 2017", link: "" },
+    { title: "NIE MEANS NIE, Vikash Verma (India and Poland) | 2018/2019", link: "https://www.youtube.com/watch?v=am_D_aP6WwY&t=4s" },
+    
+    // Shorts 2017
+    { title: "CEGUERA, Lorena Villanueva (BANDE A PART) | 2017", link: "" },
+    { title: "LA SRA. MARÍA, Mercedez Gonzales (7 DÍAS UN CORTO) | 2017", link: "https://youtu.be/sPWRBvFqerI" },
+    { title: "LA GAMBA PLAYERA, Brien Stubbe y Daniel Sicar (ESCAC) | 2017", link: "" },
+    { title: "CONSPIRACIÓN, Alejandro León (ESCAC) | 2017", link: "" },
+    { title: "ARCHIBALDO, Santiago Olivera (ECIB) | 2017", link: "" },
+    { title: "EL ALETEO DEL COLIBRÍ, Meritxell Aguilar Valls (VERKAMI) | 2017", link: "https://www.youtube.com/watch?v=VcQuQa6SbwE" },
+    { title: "TÍMIDOS, Iván Costarrosa (ESCAC) | 2017", link: "" },
+    { title: "TIERRA EN LOS OJOS, Francisco Del Sel (ESCAC) | 2017", link: "" },
+    { title: "DOLL, Alejandro León (ESCAC) | 2017", link: "" },
+    { title: "ISADORA Y NOSOTROS, Analia Fraser (INDEPENDENT) | 2017", link: "" },
+    
+    // Shorts 2016
+    { title: "HANNAH, Joaquin B. Garcia (ESCAC) | 2016", link: "https://youtu.be/ZAlHVBxInNQ" },
+    { title: "EL MENSAJE, Renan Aparicio (ESCAC) | 2016", link: "https://youtu.be/YtgL6ZP1S1Y" },
+    
+    // Shorts 2015
+    { title: "CIDADE DOS ANÕES, Rodrigo Brasil (FUNCINE) | 2015", link: "https://www.youtube.com/watch?v=TEmxchCbIDY" },
+    { title: "TUDO É RÍTMO, Andressa Ocker (UFSC) | 2015", link: "https://youtu.be/dT7nArrrg48" },
+    { title: "ONDE FICA O UNIVERSO, Ana Machado (UNISUL) | 2015", link: "" },
+    
+    // Shorts 2013
+    { title: "O COVEIRO, Gentil Jr (UNISUL) | 2013", link: "https://youtu.be/1wDEcENFby8" },
+    { title: "VENTO SUL, Vinícius Lhawaewu (UFSC) | 2013", link: "https://youtu.be/2MceY2yBaVc" },
+    { title: "NÃO OLHE AGORA, Heitor Guedert (UNISUL) | 2013", link: "https://youtu.be/U_PUQfKjGNU" },
+    { title: "AS DEZENOVE, Andréa Oliveira (UNISUL) | 2013", link: "https://youtu.be/1IshCC1020A" },
+    { title: "PETRICOR, Bruna Konder Reis (UNISUL) | 2013", link: "https://youtu.be/5ybCoz_yf9M" },
+    { title: "QUERIDA ALICE, Leandro Waltrick (CINEMATECA) | 2013", link: "https://youtu.be/R7cjH_DftRg" },
+    
+    // Shorts 2012
+    { title: "SENHOR DAS AGUAS, Bartira S. Catarina (UNISUL) | 2012", link: "https://youtu.be/HJUMF2_r1wg" },
+    { title: "LIGIA NÃO EXISTE, Bolivar P. Chalfun (FUNCINE) | 2012", link: "https://youtu.be/P0czVL4aXrU" },
+    { title: "PASSEIO NOTURNO, Glauco Broering (UNISUL) | 2012", link: "https://youtu.be/Jsvc_vsCva8" },
+    
+    // Shorts 2011
+    { title: "BOCA RICA, Marivany Paza Pizzi (UNISUL) | 2011", link: "" },
+    { title: "OS PERSONAGENS, Glauco Broering (UNISUL) | 2011", link: "https://youtu.be/SF95DiFOI8g" },
+    
+    // Shorts 2010
+    { title: "FLUSH, Monique Buedgens (UNISUL) | 2010", link: "" }
+] },
+        { id: "editor", name: "Editor", desc: "Editing for short films, TV, & commercials.", items: [
+            { title: "EVERYDAY CHEMESTRY (2022)", link: "https://www.youtube.com/watch?v=YqS5u89ZsiQ" },{ title: "EXPERIMENTAL PAINTS (2018)", link: "https://youtu.be/c9mBR-d00Qc" },{ title: "CIDADE DOS ANÕES (2016)", link: "https://www.youtube.com/watch?v=TEmxchCbIDY" },
+            { title: "MEMÓRIAS DE NÓS (2015)", link: "" },{ title: "A CORDA (2013)", link: "https://youtu.be/Q9bnO80_7HQ" },{ title: "RICTV RECORD (2011)", link: "" },
+            { title: "ITS TV (2012-2014)", link: "https://youtu.be/B0kGRVwg7IA" },{ title: "HONDA Commercial (2015)", link: "https://youtu.be/gzUruyvTls0" },{ title: "D'ARAÚJO New Year (2015)", link: "https://youtu.be/P_XMkgqRykE" }
         ] },
-        { id: "assistant", name: "🎥 Assistente de Direção (1st AD)", desc: "Feature films, short films, international productions.", items: [
-            { title: "42 SEGUNDOS (2019 - Pre-Prod)", link: "" },{ title: "MIS OJOS (2017)", link: "" },{ title: "NIE MEANS NIE - Bollywood (2018/19)", link: "" },
-            { title: "CEGUERA (2017)", link: "" },{ title: "LA SRA. MARÍA (2017)", link: "" },{ title: "LA GAMBA PLAYERA (2017)", link: "" },
-            { title: "CONSPIRACIÓN (2017)", link: "" },{ title: "ARCHIBALDO (2017)", link: "" },{ title: "EL ALETEO DEL COLIBRÍ (2017)", link: "" },
-            { title: "TÍMIDOS (2017)", link: "" },{ title: "TIERRA EN LOS OJOS (2017)", link: "" },{ title: "DOLL (2017)", link: "" },
-            { title: "ISADORA Y NOSOTROS (2017)", link: "" },{ title: "HANNAH (2016)", link: "" },{ title: "EL MENSAJE (2016)", link: "" },
-            { title: "CIDADE DOS ANÕES (2015)", link: "" }
-        ] },
-        { id: "editor", name: "✂️ Editor", desc: "Editing for short films, TV, & commercials.", items: [
-            { title: "EVERYDAY CHEMESTRY (2022)", link: "" },{ title: "EXPERIMENTAL PAINTS (2018)", link: "" },{ title: "CIDADE DOS ANÕES (2016)", link: "" },
-            { title: "MEMÓRIAS DE NÓS (2015)", link: "" },{ title: "A CORDA (2013)", link: "" },{ title: "RICTV RECORD (2011)", link: "" },
-            { title: "ITS TV (2012-2014)", link: "" },{ title: "HONDA Commercial (2015)", link: "" },{ title: "D'ARAÚJO New Year (2015)", link: "" }
-        ] },
-        { id: "fashion", name: "👗 Fashion Film Director & Editor", desc: "Stylish fashion films & branding content.", items: [
-            { title: "CABALLEROS LAS PREFIEREN RUBIAS (2017)", link: "" },{ title: "TIDA (2015)", link: "" },{ title: "DE CHELLES (2015)", link: "" },
-            { title: "LET IT BE (2015)", link: "" },{ title: "GABRIELA FERNANDES (2015)", link: "" },{ title: "AESTHETIC (2015)", link: "" },
-            { title: "KALOS KAI AGATHOS (2015)", link: "" }
+        { id: "fashion", name: "Fashion Film Director & Editor", desc: "Stylish fashion films & branding content.", items: [
+            { title: "CABALLEROS LAS PREFIEREN RUBIAS (2017)", link: "https://www.youtube.com/watch?v=nuJmqkf12YU" },{ title: "TIDA (2015)", link: "https://www.youtube.com/watch?v=ygMgBeMaPyA&t" },{ title: "DE CHELLES (2015)", link: "https://www.youtube.com/watch?v=8hvrQ1uJATg" },
+            { title: "LET IT BE (2015)", link: "https://www.youtube.com/watch?v=ZMTBQ3ED5lA" },{ title: "GABRIELA FERNANDES (2015)", link: "https://www.youtube.com/watch?v=5hISkUqMVbQ" },{ title: "AESTHETIC (2015)", link: "https://youtu.be/H-mnL5aRdNA" },
+            { title: "KALOS KAI AGATHOS (2015)", link: "https://www.youtube.com/watch?v=70PD9kqUj3I" }, { title: "BORN (2020)", link: "https://youtu.be/M0Nls-fLzWk" }
         ] }
     ];
 
     const defaultExtra = {
-        awards: ["🏆 A CORDA - Best Short-Movie & Best Cut | Festival Fita Crepe de Ouro (2013)","🏆 MEMÓRIAS DE NÓS - Best Focal | Festival Fita Crepe de Ouro (2015)"],
+        awards: ["🏆 A CORDA - Best Short-Movie & Best Cut | Festival Fita Crepe de Ouro (2013)","🏆 MEMÓRIAS DE NÓS - Best Cut | Festival Fita Crepe de Ouro (2015)"],
         languages: ["🇧🇷 Portuguese (Native)","🇪🇸 Spanish (Fluent)","🇬🇧 English (Professional)"],
         otherExperiences: ["🎞️ Director & Sworn of ShortCup Film Festival (2013-2016)","🎞️ Director & Sworn of GEA Film fest (2017 - now)","📸 Photo Assistant: Over Digital, REMAKERS, THE WORMS (FOX FILMS)","🎬 Focus Puller / Gaffer for various videoclips & commercials"]
     };
@@ -359,7 +404,7 @@
     function showLoginModal() {
         const modal = document.getElementById("adminModal");
         const contentDiv = document.getElementById("modalDynamicContent");
-        contentDiv.innerHTML = `<h3>Login Admin</h3><div class="form-group"><label>Usuário</label><input id="loginUser" placeholder="krysneto"></div><div class="form-group"><label>Senha</label><input type="password" id="loginPass"></div><div style="display:flex; gap:12px;"><button id="doLoginBtn">Entrar</button><button id="closeLoginBtn">Cancelar</button></div>`;
+        contentDiv.innerHTML = `<h3>Login Admin</h3><div class="form-group"><label>Usuário</label><input id="loginUser" placeholder="user"></div><div class="form-group"><label>Senha</label><input type="password" id="loginPass"></div><div style="display:flex; gap:12px;"><button id="doLoginBtn">Entrar</button><button id="closeLoginBtn">Cancelar</button></div>`;
         modal.style.display = "flex";
         document.getElementById("doLoginBtn").onclick = () => {
             const u = document.getElementById("loginUser").value, p = document.getElementById("loginPass").value;
